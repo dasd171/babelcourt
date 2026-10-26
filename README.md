@@ -1,6 +1,6 @@
 # BabelCourt — translation bounties judged by GenLayer validator consensus
 
-**Live demo:** https://babelcourt.vercel.app · **Contract (Studionet):** [`0xd8cD45708980F90b6b718E6d61e46BdAa06Aa6b8`](https://explorer-studio.genlayer.com/address/0xd8cD45708980F90b6b718E6d61e46BdAa06Aa6b8)
+**Live demo:** https://babelcourt.vercel.app · **Source:** https://github.com/dasd171/kiro · **Contract (Studionet):** [`0xd8cD45708980F90b6b718E6d61e46BdAa06Aa6b8`](https://explorer-studio.genlayer.com/address/0xd8cD45708980F90b6b718E6d61e46BdAa06Aa6b8)
 
 A requester escrows GEN for a translation. Translators compete. **GenLayer validators decide who translated
 it faithfully** — by consensus, with a fixed rubric, a deterministic glossary check, a prompt-injection

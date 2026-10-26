@@ -216,7 +216,7 @@ export default function App() {
       </main>
       <footer>
         Open source ·{" "}
-        <a href="https://github.com/dasd171/babelcourt" target="_blank" rel="noreferrer">github.com/dasd171/babelcourt</a>{" "}
+        <a href="https://github.com/dasd171/kiro" target="_blank" rel="noreferrer">GitHub source</a>{" "}
         · Built on <a href="https://genlayer.com" target="_blank" rel="noreferrer">GenLayer</a>
       </footer>
     </div>
