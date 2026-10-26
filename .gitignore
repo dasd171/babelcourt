@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+artifacts/
+.env
+.deployer.json
+.pytest_cache/
+node_modules/
+dist/
+.vercel/
+frontend/.env.local
+.accounts.json

@@ -1,0 +1,16 @@
+{
+  "studionet": {
+    "v1": {
+      "contract": "0xFE459c72bC75C4819be5Cc0dE69f1886379BA5a0",
+      "deploy_tx": "0xa616a713cd7aa64bc536891443f0276c4a27336b6853fecefaaa45c886241c84",
+      "note": "v1: LLM could also judge glossary; job #0 appeal overturned the winner -> refund"
+    },
+    "v2": {
+      "contract": "0x47097B602162255039ea52b435faEb0bcE2d18e9",
+      "deploy_tx": "0x1c4a7519f882a97ffb55921910a755e33617ba8564ad40189e3057b638383e11",
+      "note": "v2: glossary deterministic-only; e2e good translation won (incl. appeal) but payout used IC-to-IC emit_transfer, which Studionet cannot deliver to an EOA (child tx: Contract not found)"
+    },
+    "deploy_tx": "0xcde9a05d4e4784bbd07dd17f72d457de34ad8354e83ef76781feaf15fd48fefe",
+    "contract": "0xd8cD45708980F90b6b718E6d61e46BdAa06Aa6b8"
+  }
+}

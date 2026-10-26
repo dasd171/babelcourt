@@ -1,0 +1,44 @@
+[
+  {
+    "step": "create_job_from_url",
+    "tx": "0xbbc79c4b3f9e348d8f6ae990097fc2c559fc79c3f0c403b1d6af3cf7e775fff4",
+    "actor": "requester",
+    "from": "0x89dd41043e342343A66f661511Bb234300940925"
+  },
+  {
+    "step": "submit_translation",
+    "tx": "0xa6371cdfac0ae62455aee6ad6b130b84a77ede02250ccb8721aacf1bebc8e51a",
+    "actor": "alice",
+    "from": "0xCFe8E01bE23F8c5DBCAaC5e783520BaA90F8a37D"
+  },
+  {
+    "step": "submit_translation",
+    "tx": "0xf2df667b484e453b14af16d2e5864401b79666ec53b1d15dfa434d43fa4f815a",
+    "actor": "carol",
+    "from": "0x70efc7E1375FD86D5e453A4001420268A3c33BBA"
+  },
+  {
+    "step": "submit_translation",
+    "tx": "0xa45de8b87026181e645ae969c3426d0207eef3c309cfc2f8697db88f9bc2d834",
+    "actor": "bob",
+    "from": "0x9EbDD57468430BE14e55f429a16bbAF9Da5B1fEa"
+  },
+  {
+    "step": "judge",
+    "tx": "0xfc95b89e7f15c97ecb3c6da9253daf6c51691188a25ba137f940a61572ca447f",
+    "actor": "carol",
+    "from": "0x70efc7E1375FD86D5e453A4001420268A3c33BBA"
+  },
+  {
+    "step": "appeal",
+    "tx": "0x7650129044b0236a4271182a3d4dbb6ebd8d1f3e75890a9ba9fad63285196ea3",
+    "actor": "bob",
+    "from": "0x9EbDD57468430BE14e55f429a16bbAF9Da5B1fEa"
+  },
+  {
+    "step": "finalize",
+    "tx": "0x0ad15624270eba759dd309b936e4cc7c576d3d8549efd8ca018f8cb36f3e75a8",
+    "actor": "requester",
+    "from": "0x89dd41043e342343A66f661511Bb234300940925"
+  }
+]

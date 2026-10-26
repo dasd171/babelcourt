@@ -1,0 +1,55 @@
+[
+  {
+    "step": "create_job (payout smoke test, escrow 0.1 GEN)",
+    "tx": "(see deployer history)",
+    "actor": "deployer"
+  },
+  {
+    "step": "cancel_job #0 -> 0.1 GEN refunded to EOA via ghost external message",
+    "tx": "0x001f5adc0f183e54eaaecca2c585b3b2c9d448c4da6a72068db8aa4d7c31e1d1",
+    "actor": "deployer",
+    "child_tx": "0x0b048cf99c4ebdbf9161b8fce97f9866a7fcfa5c3fddbe5cbacb316d896f6740"
+  },
+  {
+    "step": "create_job_from_url",
+    "tx": "0x25cdb96adceb22edfaeb9db46e8693e3f294789b65bcba6007bc050aba2076cf",
+    "actor": "requester",
+    "from": "0x89dd41043e342343A66f661511Bb234300940925"
+  },
+  {
+    "step": "submit_translation",
+    "tx": "0xe4da2c6c35b9ae636fcf381caa5c08e797d64933fb8dd60f07402568f70d03fc",
+    "actor": "alice",
+    "from": "0xCFe8E01bE23F8c5DBCAaC5e783520BaA90F8a37D"
+  },
+  {
+    "step": "submit_translation",
+    "tx": "0x9cf136b7f561023fab3ea9ef45380c1f672461426ffa189fd25cde48a4f0cbc1",
+    "actor": "bob",
+    "from": "0x9EbDD57468430BE14e55f429a16bbAF9Da5B1fEa"
+  },
+  {
+    "step": "submit_translation",
+    "tx": "0x104d5071fe76abe0fa64926113a9ce1bf8f878bd3533fe92a354d6ec9b561d7f",
+    "actor": "carol",
+    "from": "0x70efc7E1375FD86D5e453A4001420268A3c33BBA"
+  },
+  {
+    "step": "judge",
+    "tx": "0x220eaa24d9d8034b52478f33b4254d41480f9732919346741f6b3f6d1136fa2b",
+    "actor": "carol",
+    "from": "0x70efc7E1375FD86D5e453A4001420268A3c33BBA"
+  },
+  {
+    "step": "appeal",
+    "tx": "0xd0b00cfc66802800e15ffa6d98ee023bf52633a72e73b66e6880694368a7e03e",
+    "actor": "bob",
+    "from": "0x9EbDD57468430BE14e55f429a16bbAF9Da5B1fEa"
+  },
+  {
+    "step": "finalize",
+    "tx": "0x593a85d184858dd4d82f58a2a38fb0a074675bd9f14ae2ef4934bf341b03a015",
+    "actor": "carol",
+    "from": "0x70efc7E1375FD86D5e453A4001420268A3c33BBA"
+  }
+]
